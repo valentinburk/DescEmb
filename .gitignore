@@ -134,3 +134,6 @@ wandb/
 
 # Pyre type checker
 .pyre/
+
+# add data folder
+data/*
