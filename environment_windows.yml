@@ -1,0 +1,19 @@
+name: descemb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - torch==2.2.1+cu118
+    - transformers==4.39.1
+    - easydict==1.13
+    - iterative-stratification==0.1.7
+    - tqdm==4.66.2
